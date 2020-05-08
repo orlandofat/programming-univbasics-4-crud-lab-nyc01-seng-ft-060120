@@ -18,13 +18,13 @@ def add_element_to_start_of_array(array, element)
 end
 
 def remove_element_from_end_of_array(array)
-  array = ["I", "am", "really", "learning"]
+ # array = ["I", "am", "really", "learning"]
    array.pop 
 end
 
 def remove_element_from_start_of_array(array)
   array = ["mat", "sam", "tom", "ben"]
-  array.shift = "mat"
+  array.shift
 end
 
 def retrieve_element_from_index(array, index_number)
